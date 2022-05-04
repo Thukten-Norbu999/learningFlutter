@@ -77,6 +77,9 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(icon: Icon(Icons.help), label: "Help"),
           BottomNavigationBarItem(
               icon: Icon(Icons.settings), label: 'Settings'),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.account_balance_wallet_rounded),
+              label: "Balance"),
         ],
       ),
     );
